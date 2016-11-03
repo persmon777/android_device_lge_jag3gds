@@ -50,4 +50,8 @@ void vendor_load_properties()
     property_set("ro.build.product", "jag3gds");
     property_set("ro.build.description", "jag3gds_global_com-user 5.0.2 LRX22G 1523009453205 release-keys");
     property_set("ro.build.fingerprint", "lge/jag3gds_global_com/jag3gds:5.0.2/LRX22G/1523009453205:user/release-keys");
+	property_set("persist.multisim.config", "dsds");
+    property_set("persist.radio.multisim.config", "dsds");
+    property_set("persist.radio.dont_use_dsd", "true");
+    property_set("ro.telephony.ril.config", "simactivation");
 }

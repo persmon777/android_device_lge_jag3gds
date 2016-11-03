@@ -25,6 +25,13 @@
 # Common specific options in device_jag3gds.mk
 -include device/lge/msm8226-common/BoardConfigCommon.mk
 
+# Vendor Init
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_jag3gds
+TARGET_OTA_ASSERT_DEVICE := jag3gds
+TARGET_RECOVERY_DEVICE_MODULES := libinit_jag3gds
+TARGET_RELEASETOOLS_EXTENSIONS := device/lge/jag3gds
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := jag3gds
 

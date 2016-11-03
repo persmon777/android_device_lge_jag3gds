@@ -46,6 +46,7 @@ WIFI_DRIVER_FW_PATH_AP := "/system/etc/firmware/fw_bcmdhd_apsta.bin"
 WIFI_DRIVER_FW_PATH_STA := "/system/etc/firmware/fw_bcmdhd.bin"
 
 # Kernel
+BOARD_CUSTOM_BOOTIMG_MK := device/lge/jag3gds/mkbootimg.mk
 TARGET_KERNEL_CONFIG := jag3gds_cyanogenmod_defconfig
 
 # Filesystem
